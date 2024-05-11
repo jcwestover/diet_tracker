@@ -46,10 +46,10 @@ function insertUser() {
 // console.log('test');
 insertUser();
 
-db.each('SELECT * FROM users', (err, row) => {
-    if (err) {
-        console.error(err.message);
-    }
+// db.each('SELECT * FROM users', (err, row) => {
+//     if (err) {
+//         console.error(err.message);
+//     }
 
-    const tdee = tdeeCalc(row.age, row.weight, row.height, row.gender);
-})
+//     const tdee = tdeeCalc(row.age, row.weight, row.height, row.gender);
+// })
